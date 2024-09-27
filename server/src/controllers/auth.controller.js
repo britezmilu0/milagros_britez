@@ -23,11 +23,13 @@ export const signInCtrl = async (req, res) => {
 
 export const signUpCtrl = async (req, res) => {
   try {
-    // ! Completar la función signUpCtrl
-  } catch (error) {
+  
+
+    }
+// ! Completar la función signUpCtrl
+    catch (error) {
     res.status(500).json({ message: error.message });
-  }
-};
+  }};
 
 export const signOutCtrl = (_req, res) => {
   try {
